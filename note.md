@@ -22,3 +22,8 @@ Remote - all những gì k nằm trên máy tính mà nằm trên 1 server nào 
 - git branch -d {branch name} (xoá branch)
 - git push (đẩy len local, remote repo)
 - git clone + đường dẫn HTTPS (lấy code về)
+- git push -u origin + tên branch(tạo branch ở dưới và đâỷ lên git -chỉ cần -u 1 lần, những lần sau push bth)
+~ Lấy 1 branch có sẵn trên git
+- git fetch origin
+- git checkout -b staging origin/staging
+~ merge or kết hợp các branch khác với master 
