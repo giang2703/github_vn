@@ -3,6 +3,8 @@
 Repository (Repo) - thư mục dự án 
 Branch (nhánh)
 Conflict (xung đột)
+Local - all những gì trên máy tính gồm hình ảnh,...
+Remote - all những gì k nằm trên máy tính mà nằm trên 1 server nào đó
 
 # Comands ( lệnh)
 
@@ -18,3 +20,4 @@ Conflict (xung đột)
 - git checkout -b{branch name}(tạo 1 branch mới)
 - git merge {branch name} (tổng hợp lại branch)
 - git branch -d {branch name} (xoá branch)
+- git push (đẩy len local, remote repo)
