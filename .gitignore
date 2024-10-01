@@ -1,0 +1,2 @@
+# mục này xác định những file/thư mục nào mà k muốn git quan tâm tới
+.env 
