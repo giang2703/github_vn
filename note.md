@@ -2,6 +2,7 @@
 
 Repository (Repo) - thư mục dự án 
 Branch (nhánh)
+Conflict (xung đột)
 
 # Comands ( lệnh)
 
@@ -13,7 +14,7 @@ Branch (nhánh)
 - git log (coi lại thời điểm lưu)
 - git log --oneline 
 - git checkout {branch name}
-- git branch
+- git branch (ktra brach)
 - git checkout -b{branch name}(tạo 1 branch mới)
 - git merge {branch name} (tổng hợp lại branch)
 - git branch -d {branch name} (xoá branch)
