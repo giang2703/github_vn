@@ -6,4 +6,6 @@ Repository (Repo) - thư mục dự án
 
 - git init 
 - git status  (thấy đc trạng thái dự án)
-- git add
+- git add (chuẩn bị lưu lại thời điểm htai của dự án + tên or git add .)
+- git reset (trở lại k chuẩn bị lưu nữa)
+- git commit -m "ghi chú"
