@@ -21,3 +21,4 @@ Remote - all những gì k nằm trên máy tính mà nằm trên 1 server nào 
 - git merge {branch name} (tổng hợp lại branch)
 - git branch -d {branch name} (xoá branch)
 - git push (đẩy len local, remote repo)
+- git clone + đường dẫn HTTPS (lấy code về)
