@@ -14,4 +14,4 @@ Branch (nhánh)
 - git log --oneline 
 - git checkout {branch name}
 - git branch
-- git checkout -b{branch name}
+- git checkout -b{branch name}(tạo 1 branch mới)
