@@ -15,3 +15,5 @@ Branch (nhánh)
 - git checkout {branch name}
 - git branch
 - git checkout -b{branch name}(tạo 1 branch mới)
+- git merge {branch name} (tổng hợp lại branch)
+- git branch -d {branch name} (xoá branch)
