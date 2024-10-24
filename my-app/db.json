@@ -1,0 +1,51 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "máy tính",
+      "email": "eric@gmail.com"
+    },
+    {
+      "id": "2",
+      "name": "điện thoại",
+      "email": "dienthoai@gmail.com"
+    },
+    {
+      "id": "3",
+      "name": "tai nghe",
+      "email": "admin@gmail.com"
+    },
+    {
+      "id": "4",
+      "name": "chuột",
+      "email": "15@gmail.com"
+    }
+  ],
+  "CategoriesParent": [
+    {
+      "id": "1",
+      "categoryName": "máy tính",
+      "quantity": 32
+    },
+    {
+      "id": "2",
+      "categoryName": "điện thoại",
+      "quantity": 1
+    },
+    {
+      "id": "3",
+      "categoryName": "chuột",
+      "quantity": 7
+    },
+    {
+      "id": "4",
+      "categoryName": "bàn phím3",
+      "quantity": 12
+    },
+    {
+      "id": "5",
+      "categoryName": "máy tính pc",
+      "quantity": 10
+    }
+  ]
+}

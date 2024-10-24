@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thông tin tài khoản</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+  <div class="container mx-auto px-4 py-8">
+    <div class="flex justify-center items-center h-20 mb-6">
+        <h2 class="text-2xl font-bold">Trang chủ / <span class="text-blue-600">Tài khoản</span></h2>
+      </div>  
+    <div class="bg-white shadow-lg rounded-lg flex flex-col md:flex-row">
+      
+      <!-- Sidebar (bên trái) -->
+      <div class="w-full md:w-[30%] bg-white-600 text-black-600 p-6 rounded-l-lg">
+        <h2 class="text-2xl text-blue-600 font-bold mb-6">Xin chào Nguyễn Văn A!</h2>
+        <ul class="space-y-4">
+            <li><a href="./taikhoan.html" class="block py-2 px-4 hover:text-blue-500 rounded">Thông tin tài khoản</a></li>
+            <li><a href="./donhang.html" class="block py-2 px-4 hover:text-blue-500 rounded">Đơn hàng của bạn</a></li>
+            <li><a href="./doimatkhau.html" class="block py-2 px-4 hover:text-blue-500 rounded">Đổi mật khẩu</a></li>
+            <li><a href="./diachi.html" class="block py-2 px-4 hover:text-blue-500 rounded">Địa chỉ</a></li>
+            <li><a href="#" class="block py-2 px-4 hover:text-blue-500 rounded">Đăng xuất</a></li>
+          </ul>
+      </div>
+
+      <!-- Thông tin tài khoản (bên phải) -->
+      <div class="w-full md:w-3/4 p-6">
+        <h2 class="text-2xl text-blue-600 font-bold mb-6">Địa chỉ của bạn</h2>
+        <div class="mb-4">
+            <a href="./themdiachi.html" class="bg-blue-600 text-white py-2 px-4 rounded-md mb-4 hover:bg-blue-500 transition">
+                Thêm địa chỉ
+              </a>
+        </div>
+       
+        
+        <div class="overflow-x-auto">
+          <table class="min-w-full bg-white border border-gray-300">
+            <thead>
+              <tr class="bg-blue-600 text-white">
+                <th class="py-3 px-4 border-b">Họ và tên</th>
+                <th class="py-3 px-4 border-b">Địa chỉ</th>
+                <th class="py-3 px-4 border-b">Số điện thoại</th>
+                <th class="py-3 px-4 border-b">Thao tác</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="hover:bg-gray-100">
+                <td class="py-2 px-4 border-b">Nguyễn Văn A</td>
+                <td class="py-2 px-4 border-b">123 Đường ABC, Phường XYZ, TP.HCM</td>
+                <td class="py-2 px-4 border-b">0901234567</td>
+                <td class="py-2 px-4 border-b">
+                  <a href="./suadiachi.html" class="text-blue-500 hover:underline mr-4">Chỉnh sửa</a>
+                  <a href="#" class="text-red-500 hover:underline">Xoá</a>
+                </td>
+              </tr>
+              <tr class="hover:bg-gray-100">
+                <td class="py-2 px-4 border-b">Trần Thị B</td>
+                <td class="py-2 px-4 border-b">456 Đường DEF, Phường UVW, TP.HCM</td>
+                <td class="py-2 px-4 border-b">0912345678</td>
+                <td class="py-2 px-4 border-b">
+                  <a href="./suadiachi.html" class="text-blue-500 hover:underline mr-4">Chỉnh sửa</a>
+                  <a href="#" class="text-red-500 hover:underline">Xoá</a>
+                </td>
+              </tr>
+              <!-- Thêm nhiều địa chỉ nếu cần -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+      
+      
+
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang Thanh Toán</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-blue-50 text-gray-800">
+  <div class="container mx-auto px-4 py-8">
+    <div class="flex justify-center items-center h-20 mb-6">
+        <h2 class="text-2xl font-bold">Trang chủ / <span class="text-blue-600">Thanh toán</span></h2>
+      </div>    
+    <div class="flex flex-col md:flex-row justify-between gap-6">
+      <!-- Thông tin khách hàng -->
+      <div class="bg-white p-6 rounded-lg shadow-lg w-full md:w-2/3">
+        <h3 class="text-lg font-bold mb-4">Thông tin khách hàng</h3>
+        <form class="space-y-4">
+          <div>
+            <label for="name" class="block text-blue-600 font-semibold mb-1">Họ tên</label>
+            <input type="text" id="name" class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500" placeholder="Nhập họ tên">
+          </div>
+
+          <div>
+            <label for="address" class="block text-blue-600 font-semibold mb-1">Địa chỉ</label>
+            <input type="text" id="address" class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500" placeholder="Nhập địa chỉ">
+          </div>
+
+          <div>
+            <label for="phone" class="block text-blue-600 font-semibold mb-1">Điện thoại</label>
+            <input type="text" id="phone" class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500" placeholder="Nhập số điện thoại">
+          </div>
+
+          <div>
+            <label for="email" class="block text-blue-600 font-semibold mb-1">Email</label>
+            <input type="email" id="email" class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500" placeholder="Nhập email">
+          </div>
+
+          <div>
+            <h4 class="font-semibold text-blue-600 mb-1">Hình thức thanh toán</h4>
+            <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition">Thanh toán khi giao hàng</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Đơn hàng -->
+      <div class="bg-white p-6 rounded-lg shadow-lg w-full md:w-1/3">
+        <h3 class="text-lg font-bold mb-4">Đơn hàng</h3>
+        <ul class="space-y-4">
+          <li class="flex items-center justify-between">
+            <div class="flex items-center space-x-4">
+                <img src="https://th.bing.com/th/id/R.94d799ced2232f744621664392286e82?rik=mFNzgHyee06qSw&pid=ImgRaw&r=0" alt="Hình sản phẩm" class="w-12 h-12 rounded-full object-cover">
+                <div>
+                <span class="block font-semibold">Điện thoại</span>
+                <span class="text-gray-500">1000đ</span>
+              </div>
+            </div>
+            <span class="bg-gray-100 py-2 px-3 rounded-full font-semibold text-gray-700">1</span>
+          </li>
+          <li class="flex items-center justify-between">
+            <div class="flex items-center space-x-4">
+                <img src="https://th.bing.com/th/id/OIP.8iKcBrdQx5XRMepoRsVpNAHaHa?w=1000&h=1000&rs=1&pid=ImgDetMain" alt="Hình sản phẩm" class="w-12 h-12 rounded-full object-cover">
+              <div>
+                <span class="block font-semibold">Tai nghe</span>
+                <span class="text-gray-500">1000đ</span>
+              </div>
+            </div>
+            <span class="bg-gray-100 py-2 px-3 rounded-full font-semibold text-gray-700">1</span>
+          </li>
+        </ul>
+        
+        <div class="flex justify-between items-center border-t border-gray-200 pt-4 mt-4">
+            <span class="font-semibold text-lg">Tạm tính:</span>
+            <span class="font-semibold text-lg">2000đ</span>
+          </div>
+
+        <div class="flex justify-between items-center border-t border-gray-200 pt-4 mt-4">
+            <span class="font-semibold text-lg">Phí vận chuyển:</span>
+            <span class="font-semibold text-lg">200đ</span>
+          </div>
+
+        <div class="flex justify-between items-center border-t border-gray-200 pt-4 mt-4">
+          <span class="font-semibold text-lg">Tổng cộng:</span>
+          <span class="font-semibold text-lg">2200đ</span>
+        </div>
+
+        <div class="flex justify-between items-center mt-6">
+          <a href="#" class="text-blue-600 hover:underline">Quay về giỏ hàng</a>
+          <a href="dat-hang-thanh-cong.html"
+           class="bg-green-500 text-white py-2 px-4 rounded-md hover:bg-green-600 transition">Đặt hàng</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

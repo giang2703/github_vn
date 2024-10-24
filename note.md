@@ -26,4 +26,9 @@ Remote - all những gì k nằm trên máy tính mà nằm trên 1 server nào 
 ~ Lấy 1 branch có sẵn trên git
 - git fetch origin
 - git checkout -b staging origin/staging
-~ merge or kết hợp các branch khác với master 
+# gitignore này xác định những file/thư mục nào mà k muốn git quan tâm tới như
+.env 
+- cho vào nhánh master
+- git add .
+- git commit -m 'gitignore'
+- git push

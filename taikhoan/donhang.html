@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thông tin tài khoản</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+  <div class="container mx-auto px-4 py-8">
+    <div class="flex justify-center items-center h-20 mb-6">
+        <h2 class="text-2xl font-bold">Trang chủ / <span class="text-blue-600">Tài khoản</span></h2>
+      </div>  
+    <div class="bg-white shadow-lg rounded-lg flex flex-col md:flex-row">
+      
+      <!-- Sidebar (bên trái) -->
+      <div class="w-full md:w-[30%] bg-white-600 text-black-600 p-6 rounded-l-lg">
+        <h2 class="text-2xl text-blue-600 font-bold mb-6">Xin chào Nguyễn Văn A!</h2>
+        <ul class="space-y-4">
+            <li><a href="./taikhoan.html" class="block py-2 px-4 hover:text-blue-500 rounded">Thông tin tài khoản</a></li>
+            <li><a href="./donhang.html" class="block py-2 px-4 hover:text-blue-500 rounded">Đơn hàng của bạn</a></li>
+            <li><a href="./doimatkhau.html" class="block py-2 px-4 hover:text-blue-500 rounded">Đổi mật khẩu</a></li>
+            <li><a href="./diachi.html" class="block py-2 px-4 hover:text-blue-500 rounded">Địa chỉ</a></li>
+            <li><a href="#" class="block py-2 px-4 hover:text-blue-500 rounded">Đăng xuất</a></li>
+          </ul>
+      </div>
+
+      <!-- Thông tin tài khoản (bên phải) -->
+      <div class="w-full md:w-3/4 p-6">
+        <h2 class="text-2xl text-blue-600 font-bold mb-6">Đơn hàng của bạn</h2>
+        <div class="overflow-x-auto">
+          <table class="min-w-full bg-white border border-gray-300">
+            <thead>
+              <tr class="bg-blue-600 text-white">
+                <th class="py-3 px-4 border-b">Mã đơn hàng</th>
+                <th class="py-3 px-4 border-b">Ngày đặt hàng</th>
+                <th class="py-3 px-4 border-b">Địa chỉ</th>
+                <th class="py-3 px-4 border-b">Tổng tiền</th>
+                <th class="py-3 px-4 border-b">Trạng thái</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="hover:bg-gray-100">
+                <td class="py-2 px-4 border-b">123456</td>
+                <td class="py-2 px-4 border-b">01/10/2024</td>
+                <td class="py-2 px-4 border-b">123 Đường ABC, Phường XYZ, TP.HCM</td>
+                <td class="py-2 px-4 border-b">1.000.000đ</td>
+                <td class="py-2 px-4 border-b">
+                  <span class="text-green-500 font-semibold">Đã hoàn tất</span>
+                </td>
+              </tr>
+              <tr class="hover:bg-gray-100">
+                <td class="py-2 px-4 border-b">789012</td>
+                <td class="py-2 px-4 border-b">02/10/2024</td>
+                <td class="py-2 px-4 border-b">456 Đường DEF, Phường UVW, TP.HCM</td>
+                <td class="py-2 px-4 border-b">500.000đ</td>
+                <td class="py-2 px-4 border-b">
+                  <span class="text-yellow-500 font-semibold">Đang xử lý</span>
+                </td>
+              </tr>
+              <!-- Thêm nhiều dòng theo yêu cầu -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+      
+
+    </div>
+  </div>
+</body>
+</html>

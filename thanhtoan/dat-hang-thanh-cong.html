@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang đặt hàng thành công</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-blue-50 text-gray-800">
+  <div class="container mx-auto px-4 py-8">
+    <!-- Đưa tiêu đề vào giữa trang -->
+    <div class="flex h-15 mb-6">
+      <h2 class="text-2xl font-bold text-blue-600">Cảm ơn bạn đã đặt hàng!</span></h2>
+    </div>
+
+    <div class="flex flex-col md:flex-row justify-between gap-6">
+      <!-- Form thông tin khách hàng và địa chỉ nhận hàng (chiếm 2/3 màn hình) -->
+      <div class="bg-white p-6 rounded-lg shadow-lg w-full md:w-2/3">
+        <form class="space-y-6">
+          <div class="grid grid-cols-2 gap-4">
+            <!-- Thông tin khách hàng bên trái -->
+            <div>
+              <h3 class="text-lg font-bold mb-4">Thông tin khách hàng</h3>
+              <div class="space-y-4">
+                <div>
+                  <label class="block text-blue-600 font-semibold mb-1">Họ và tên: Nguyễn Văn A</label>
+                </div>
+                <div>
+                  <label class="block text-blue-600 font-semibold mb-1">Điện thoại: 0901234567</label>
+                </div>
+                <div>
+                  <label class="block text-blue-600 font-semibold mb-1">Địa chỉ: 123 Đường ABC, Phường XYZ, TP.Đà Nẵng</label>
+                </div>
+                <div>
+                  <label class="block text-blue-600 font-semibold mb-1">Email: nguyenvana@gmail.com</label>
+                </div>
+                <h3 class="text-lg font-bold mb-4">Phương thức thanh toán</h3>
+              </div>
+            </div>
+
+            <!-- Địa chỉ nhận hàng bên phải -->
+            <div>
+              <h3 class="text-lg font-bold mb-4">Địa chỉ nhận hàng</h3>
+              <div class="space-y-4">
+                <div>
+                  <label class="block text-blue-600 font-semibold mb-1">Họ và tên: Nguyễn Văn A</label>
+                </div>
+                <div>
+                  <label class="block text-blue-600 font-semibold mb-1">Điện thoại: 0909876543</label>
+                </div>
+                <div>
+                  <label class="block text-blue-600 font-semibold mb-1">Địa chỉ: 123 Đường ABC, Phường XYZ, TP.Đà Nẵng</label>
+                </div>
+                <div>
+                  <label class="block text-blue-600 font-semibold mb-1">Email: nguyenvana@gmail.com</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="flex justify-between items-center mt-6">
+            <label class="block text-blue-600 font-semibold mb-1">Thanh toán khi giao hàng </label>
+            <button class="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition">Tiếp tục mua hàng</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Đơn hàng (chiếm 1/3 màn hình) -->
+      <div class="bg-white p-6 rounded-lg shadow-lg w-full md:w-1/3">
+        <h3 class="text-lg font-bold mb-4">Đơn hàng #MDH01</h3>
+        <ul class="space-y-4">
+          <li class="flex items-center justify-between">
+            <div class="flex items-center space-x-4">
+              <img src="https://th.bing.com/th/id/R.94d799ced2232f744621664392286e82?rik=mFNzgHyee06qSw&pid=ImgRaw&r=0" alt="Hình sản phẩm" class="w-12 h-12 rounded-full object-cover">
+              <div>
+                <span class="block font-semibold">Điện thoại</span>
+                <span class="text-gray-500">1000đ</span>
+              </div>
+            </div>
+            <span class="bg-gray-100 py-2 px-3 rounded-full font-semibold text-gray-700">1</span>
+          </li>
+          <li class="flex items-center justify-between">
+            <div class="flex items-center space-x-4">
+              <img src="https://th.bing.com/th/id/OIP.8iKcBrdQx5XRMepoRsVpNAHaHa?w=1000&h=1000&rs=1&pid=ImgDetMain" alt="Hình sản phẩm" class="w-12 h-12 rounded-full object-cover">
+              <div>
+                <span class="block font-semibold">Tai nghe</span>
+                <span class="text-gray-500">1000đ</span>
+              </div>
+            </div>
+            <span class="bg-gray-100 py-2 px-3 rounded-full font-semibold text-gray-700">1</span>
+          </li>
+        </ul>
+        <div class="flex justify-between items-center border-t border-gray-200 pt-4 mt-4">
+            <span class="font-semibold text-lg">Phí vận chuyển:</span>
+            <span class="font-semibold text-lg">200đ</span>
+          </div>
+        <div class="flex justify-between items-center border-t border-gray-200 pt-4 mt-4">
+          <span class="font-semibold text-lg">Tổng cộng:</span>
+          <span class="font-semibold text-lg">2200đ</span>
+        </div>
+
+       
+      </div>
+    </div>
+  </div>
+</body>
+</html>
